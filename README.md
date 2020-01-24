@@ -10,3 +10,6 @@ To generate a small dataset, cap the number of characters.
 
 By default, it will produce 6 noisy training data points for each character. To
 modify that multiplicity, use the `--multiplicity` flag.
+
+
+Original script by @royerlab.
