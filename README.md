@@ -1,6 +1,6 @@
 # README
 
-To generate noisy hanzi characters, run the script `generate.py`.
+To generate noisy hanzi character dataset used in [Noise2Self](https://arxiv.org/abs/1901.11365), run the script `generate.py`.
 
 It will generate training, test, and validation tiles, each stored as a `.npy` file. Each data point is 9 64x64 tiles; the ground truth, then four copies of the image at increasing noise levels, then another four at the same noise levels (for noise2noise training).
 
